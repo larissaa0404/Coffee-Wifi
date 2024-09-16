@@ -1,0 +1,109 @@
+body {
+background-image: url('../image/wall.jpg');
+background-size: cover;
+color: #5e3a32;
+}
+
+a {
+    color: #c4c0c0;
+    text-decoration: none;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  color: black;
+  background-image: url('../image/wall.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.display-4 {
+  font-size: 4rem;
+  font-weight: 500;
+  color: #5e3a32;
+  padding-bottom: 2rem;
+  border-bottom: .5rem solid #5e3a32;
+}
+.lead {
+  font-size: 1.5rem;
+  color: #5e3a32;
+  font-weight: 400;
+}
+
+.btn {
+  background-color: #5e3a32;
+  color: #c4c0c0;
+  font-weight: 500;
+}
+.space-above {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.container{
+   margin-top: 7rem;
+   margin-bottom: 3rem;
+}
+.container h1{
+   padding-bottom: 1rem;
+}
+.buttons {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 1rem;
+}
+.row {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 3rem;
+}
+.image{
+  order: 2;
+  margin-left: 3rem;
+  margin-top: 8rem;
+}
+.btn {
+  margin-top: 2rem;
+  width: 13rem;
+  height:auto;
+  padding: .75rem;
+  border: none;
+  font-size: 1.5rem;
+}
+.btn:hover {
+  background: transparent;
+  color: #5e3a32;
+}
+.input{
+  height: 3rem;
+  background: #5e3a32;
+}
+label {
+  font-size: 1.3rem;
+}
+
+.table{
+   margin-top: 1.5rem;
+   height: auto;
+   background: #5e3a32;
+   color: #c4c0c0;
+   font-size: 1.2rem;
+   text-align: center;
+}
+
+.head{
+  background-color: #3d0c02;
+}
+tr:hover {
+  color: #c4c0c0;
+  background-color: grey;
+  opacity: 0.9;
+}
+@media screen and (max-width: 570px){
+   .container{
+      zoom: 80%;
+   }
+}
